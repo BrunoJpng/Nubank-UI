@@ -2,7 +2,7 @@ import React from 'react';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import { Container, TabsContainer, TabItem, TabText } from './styles'
+import { Container, TabsContainer, TabItem, TabText } from './styles';
 
 export default function Header() {
   return (
@@ -34,5 +34,5 @@ export default function Header() {
         </TabItem>
       </TabsContainer>
     </Container>
-  )
+  );
 }
